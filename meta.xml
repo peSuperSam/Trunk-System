@@ -1,5 +1,5 @@
 <meta>
-    <info name="Trunk System" author="SuperSam Olympus ROleplay" version="1.0" />
+    <info name="Trunk System" author="peSuperSam" version="1.0" />
 
     <!-- Recursos do script -->
     <script src="server.lua" type="server" />
