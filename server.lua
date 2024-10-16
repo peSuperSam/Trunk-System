@@ -2,10 +2,15 @@ local playersInTrunk = {} -- Tabela para manter os jogadores trancados no porta-
 local lastCommandTime = {}
 local commandCooldown = 2000 -- Tempo de recarga em milissegundos
 
--- Função para enviar mensagens personalizadas
+--[[Função para enviar mensagens personalizadas
+
+-- Totalmente customizavel.
+
 local function outputMessage(elem, mess, tipo)
     return exports["[HS]Infobox"]:notify(elem, mess, tipo)
 end
+
+-- Totalmente customizavel.]]
 
 function enterTrunk(player, vehicle)
     if isElement(vehicle) and getElementType(vehicle) == "vehicle" and hasTrunk(vehicle) then
