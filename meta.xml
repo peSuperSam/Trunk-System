@@ -1,0 +1,9 @@
+<meta>
+    <info name="Trunk System" author="SuperSam Olympus ROleplay" version="1.0" />
+
+    <!-- Recursos do script -->
+    <script src="server.lua" type="server" />
+    
+    <!-- Recurso para dependências -->
+    <oop>true</oop>
+</meta>
